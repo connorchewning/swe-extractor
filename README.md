@@ -12,15 +12,15 @@ This repo is not intended to be installed as a package but only to provide the m
 2) If the needed dependencies are not already installed within your environment. As is the app requires the following dependencies, though you may edit as needed for your purposes.
 
 ```python
-    import marimo as mo
-    import rioxarray
-    import matplotlib.pyplot as plt
-    from cmcrameri import cm
+    import marimo as mo # to run the app
+    import rioxarray # to read geotifs
+    import matplotlib.pyplot as plt # for plotting
+    from cmcrameri import cm # for visualization colormaps
 ```
 
 # Run the app
 
-1) Navigate to the cloned repor directory
+1) Navigate to the cloned repo
 
 2) Run the app with marimo within the terminal
 ```sh
@@ -28,7 +28,7 @@ marimo run swe-extract-app.py
 ```
 
 2) Select the image and export folders
-![](images\file_selection.png)
+![](images/file_selection.png)
 
 3) Cycle through, edit thresholds and save results
-![](images\threshold.png)
+![](images/threshold.png)
