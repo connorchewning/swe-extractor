@@ -3,20 +3,26 @@ This marimo notebook is meant as an example of what is possible when building ma
 
 # Installation
 
-This repo is not intended to be installed as a package, but installing the package should ensure the necessary dependencies needed (not tested).
+This repo is not intended to be installed as a package but only to provide the marimo based python script alongside some sample data.
 
 1) Clone this repository
 
 2) Activate the envornment you wish to run the app in
 
-2) If the needed dependencies are not already installed within your environment, install these or install the repo with
-```sh
-pip install -e path-to-swe-extractor
+2) If the needed dependencies are not already installed within your environment. As is the app requires the following dependencies, though you may edit as needed for your purposes.
+
+```python
+    import marimo as mo
+    import rioxarray
+    import matplotlib.pyplot as plt
+    from cmcrameri import cm
 ```
 
 # Run the app
 
-1) Run the app with marimo
+1) Navigate to the cloned repor directory
+
+2) Run the app with marimo within the terminal
 ```sh
 marimo run swe-extract-app.py
 ```
