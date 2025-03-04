@@ -1,10 +1,10 @@
 # swe-extractor
-A Marimo based app package with pixi to read raster files and export a binary version based on a user defined threshold.
+A Marimo based app packaged with pixi to read raster files and export a binary version based on a user defined threshold.
 
 # Quick Start
-There are two ways to install and run the swe-extractor app.
+There are two ways to install and run the swe-extractor app:
 
-## Pixi (Recomended)
+## Option 1: Pixi (Recomended)
 
 1) If not already installed, install pixi: https://github.com/prefix-dev/pixi
 
@@ -12,15 +12,16 @@ There are two ways to install and run the swe-extractor app.
 
 3) Navigate to the repository within the terminal
 
-4) Run the app or open the marimo notebook for editing
+4) Run the app
 ```sh
 pixi run app
 ```
+or open the marimo notebook for editing
 ```sh
 pixi run edit_app
 ```
 
-## Run the script as a marimo notebook
+## Option 2: Run the script directly as a marimo notebook
 
 1) Clone this repository
 
@@ -37,9 +38,9 @@ marimo run swe-extract-app.py
 ```
 
 
-# App Snapshots
-2) Select the image and export folders
+# Using the app
+1) Select the image and export folders
 ![](images/file_selection.png)
 
-3) Cycle through, edit thresholds and save results
+1) Cycle through, edit thresholds and save results
 ![](images/threshold.png)
