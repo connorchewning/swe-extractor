@@ -1,0 +1,18 @@
+[project]
+authors = ["connorchewning <62517413+connorchewning@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "swe-extractor"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+app = "marimo run swe-extract-app.py"
+edit_app = "marimo edit swe-extract-app.py"
+
+[dependencies]
+python = "==3.9"
+rasterio = ">=1.3.6,<2"
+rioxarray = ">=0.15.0,<0.16"
+marimo = ">=0.11.14,<0.12"
+matplotlib = ">=3.9.1,<4"
+cmcrameri = ">=1.9,<2"

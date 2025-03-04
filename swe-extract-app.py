@@ -9,8 +9,8 @@ def _():
     import marimo as mo
 
     import os
-    from osgeo import gdal
-    import rasterio
+    #from osgeo import gdal
+    #import rasterio
     import rioxarray
     import matplotlib.pyplot as plt
     from cmcrameri import cm
