@@ -1,0 +1,1 @@
+A folder to ensure there is a space to save outputs when running with sample data.
